@@ -26,7 +26,7 @@ public class Runner {
         long startTime2 = System.currentTimeMillis();
         List<Integer> top10Numbers_2 = getTopNByMinHeap(Stream.of(numbers));
         long diffTime2 = System.currentTimeMillis() - startTime2;
-        System.out.printf("Score of getting top 10 numbers by Max Heap (ms): %d\n", diffTime2);
+        System.out.printf("Score of getting top 10 numbers by Heap (ms): %d\n", diffTime2);
         printList(top10Numbers_2);
 
         System.out.println("Check time of executing getTopNBySortedStream function:");
