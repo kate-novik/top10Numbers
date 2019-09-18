@@ -22,3 +22,5 @@ Stream.sorted - 7 ms / N/A (with JMH (process didn't stop), but 92102 ms with ti
 
 
 So, the best solution is using Heap for getting top 10 integer values from stream.
+
+I think it isn't good idea to distribute calculations, because we need to split stream on parts and apply this algorithm on all computers and then merge result on main computer with applying same algorithm. Expectations don't live up to reality. And it takes additional time for splitting stream on parts.
