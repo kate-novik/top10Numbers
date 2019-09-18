@@ -18,7 +18,7 @@ Heap          - 1 ms / 2052 ms
 
 PriorityQueue - 2 ms / 3488 ms
 
-Stream.sorted - 7 ms /  N/A (process didn't stop)
+Stream.sorted - 7 ms / N/A (with JMH (process didn't stop), but 92102 ms with time log in code)
 
 
 So, the best solution is using Heap for getting top 10 integer values from stream.
