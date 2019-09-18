@@ -12,7 +12,7 @@ I have tested on small amount of numbers (N=50) and on huge amount of numbers(N=
 
 It is used JMH library for perfomance testing .
 
-For N = 50 / 10_000_000
+For N = 50 / 100_000_000
           
 Heap          - 1 ms / 2052 ms
 
