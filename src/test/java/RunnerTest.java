@@ -53,9 +53,7 @@ public class RunnerTest {
         Stream<Integer> intHugeStream = Stream.iterate(0, value -> value + 1).limit(100_000_000);
         List<Integer> expectedResult = Arrays.asList(99_999_999, 99_999_998, 99_999_997, 99_999_996, 99_999_995,
                 99_999_994, 99_999_993, 99_999_992, 99_999_991, 99_999_990);
-        List<Integer> actualResult = Runner.getTopNBySortedStream(intHugeStream);
-
+        List<Integer> actualResult = Runner.getTopNByMinHeap(intHugeStream);
         assertEquals(expectedResult, actualResult);
     }
-
 }
