@@ -1,0 +1,9 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,com/rednavis/topNumbers/benchmarks/CompareTopNumbersCounters.getHeapScore
+inline,com/rednavis/topNumbers/benchmarks/CompareTopNumbersCounters.getPriorityQueueScore
+inline,com/rednavis/topNumbers/benchmarks/CompareTopNumbersCounters.getSortedStreamScore
+inline,com/rednavis/topNumbers/benchmarks/CompareTopNumbersCounters.setup
