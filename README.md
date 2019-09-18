@@ -10,7 +10,7 @@ It was compared 3 ways for solving this problem:
 
 I have tested on small amount of numbers (N=50) and on huge amount of numbers(N=100_000_000). And results were similar.
 
-It is used JMH library for testing .
+It is used JMH library for perfomance testing .
 
 For N = 50 / 10_000_000
           
